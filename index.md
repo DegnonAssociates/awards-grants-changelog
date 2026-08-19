@@ -13,6 +13,12 @@ commit is listed separately.
 
 ## 2026-08-19
 
+### Added
+
+- Notify the configured instance contact when a reviewer first declares a
+  conflict of interest, including submission and reviewer details while
+  preserving the recorded conflict if notification delivery fails.
+
 ### Fixed
 
 - Display heading-only review fields without question numbers while keeping
