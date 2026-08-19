@@ -7,6 +7,13 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-08-19
+
+### Fixed
+
+- Display heading-only review fields without question numbers while keeping
+  answerable review questions consecutively numbered.
+
 ## 2026-08-12
 
 ### Added
