@@ -11,6 +11,14 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-08-20
+
+### Added
+
+- Send a separate styled payment receipt after a successful paid submission,
+  including the amount, payment date, transaction reference, submission ID,
+  submission type, and title.
+
 ## 2026-08-19
 
 ### Added
