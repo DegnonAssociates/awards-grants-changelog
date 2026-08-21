@@ -15,6 +15,9 @@ commit is listed separately.
 
 ### Added
 
+- Added per-instance administrator branding with managed logo, favicon, and
+  login-artwork uploads; light and dark palette previews; semantic runtime
+  theming; contrast guidance; and dynamic browser favicons.
 - Added administrator-managed General Configuration for public instance details,
   login-page rich text, email sender identity, default guidelines, and time zone.
 
