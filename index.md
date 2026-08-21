@@ -11,6 +11,13 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-08-21
+
+### Added
+
+- Added administrator-managed General Configuration for public instance details,
+  login-page rich text, email sender identity, default guidelines, and time zone.
+
 ## 2026-08-20
 
 ### Added
