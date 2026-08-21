@@ -21,6 +21,11 @@ commit is listed separately.
 - Added administrator-managed General Configuration for public instance details,
   login-page rich text, email sender identity, default guidelines, and time zone.
 
+### Fixed
+
+- Restored larger, centered client logos on the public landing page and dashboard
+  sidebar, with matching placement in the administrator branding preview.
+
 ## 2026-08-20
 
 ### Added
