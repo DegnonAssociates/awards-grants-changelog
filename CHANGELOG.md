@@ -7,6 +7,12 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-08-25
+
+### Changed
+
+- Updated Next.js and its matching ESLint configuration to version 15.5.24.
+
 ## 2026-08-21
 
 ### Added
