@@ -7,6 +7,14 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-09-03
+
+### Added
+
+- Grant the local Admin role during MemberClicks login when the issued OAuth
+  token contains the exact `ROLE_ADMIN` authority, while preserving existing
+  roles and preventing duplicate Admin entries.
+
 ## 2026-08-25
 
 ### Changed
