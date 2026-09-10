@@ -11,6 +11,14 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-09-10
+
+### Added
+
+- Administrators can duplicate custom email templates directly from the email
+  list and immediately edit the saved copy. Copies preserve message content,
+  CC/BCC, audience, and recipient filters while resetting the last-sent date.
+
 ## 2026-09-03
 
 ### Added
