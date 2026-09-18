@@ -15,6 +15,10 @@ commit is listed separately.
 
 ### Added
 
+- Administrators can upload PNG, JPEG, and WebP images up to 5 MB into submission
+  and review question subheadings, with alternative text, display width, and
+  alignment controls. Images are optimized and stored per instance; image-only
+  subheadings are preserved when saving and reopening questions.
 - Administrators can set separate display labels and stored values for radio,
   checkbox, and dropdown options in submission and review questions. Review
   scoring uses the stored values, so numeric scores can have descriptive labels.
