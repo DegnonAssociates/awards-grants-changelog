@@ -7,6 +7,14 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-09-29
+
+### Added
+
+- Administrators can export assignment algorithm previews as CSV, with one row
+  per submission showing proposed reviewer names and emails, reviewer counts,
+  and unfilled slots. Submissions without proposed reviewers are included.
+
 ## 2026-09-22
 
 ### Changed
