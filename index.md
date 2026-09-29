@@ -13,6 +13,14 @@ commit is listed separately.
 
 ## 2026-09-29
 
+### Changed
+
+- Assignment previews group reviewers by submission and show final reviewer
+  workloads separately, with a note that reviewer order does not indicate a role.
+- When eligible reviewers have equal workloads, the assignment algorithm favors
+  less-repeated reviewer pairs within the new plan while preserving workload
+  limits and organization conflict checks.
+
 ### Added
 
 - Administrators can export assignment algorithm previews as CSV, with one row
