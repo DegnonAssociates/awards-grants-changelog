@@ -11,6 +11,13 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-10-01
+
+### Fixed
+
+- Raised the middleware request limit to 25 MB so uploads within the advertised
+  20 MB file limit are not truncated at 10 MB and rejected with a save error.
+
 ## 2026-09-29
 
 ### Changed
