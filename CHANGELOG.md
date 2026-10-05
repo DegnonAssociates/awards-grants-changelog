@@ -28,8 +28,6 @@ commit is listed separately.
 
 ### Fixed
 
-- Submission Notes now shows only submitted submissions and removes the title
-  column from its list while preserving title search.
 - Submission Notes now limits its type dropdown, submission list, and counts
   to active submission types in the current instance.
 - The reviewer import page's available submission types list now shows only
