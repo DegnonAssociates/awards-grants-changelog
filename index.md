@@ -11,6 +11,22 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-10-05
+
+### Added
+
+- Administrators can import MemberClicks reviewers from CSV through Configuration
+  → Review Admin, with a downloadable template, validation preview, and optional
+  reviewer expertise. Imports preserve existing roles, populated profile fields,
+  and review types, and reject duplicate or conflicting identities.
+
+### Fixed
+
+- Admin report tables and CSV exports follow each submission form's page and
+  question order, keeping related fields together across all submission types.
+  Existing saved reports use the corrected order automatically; review columns
+  follow the configured review question order.
+
 ## 2026-10-01
 
 ### Fixed
