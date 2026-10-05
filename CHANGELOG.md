@@ -18,6 +18,8 @@ commit is listed separately.
 
 ### Fixed
 
+- The reviewer import page's available submission types list now shows only
+  active types and reports when no active types are available.
 - Admin report tables and CSV exports follow each submission form's page and
   question order, keeping related fields together across all submission types.
   Existing saved reports use the corrected order automatically; review columns
