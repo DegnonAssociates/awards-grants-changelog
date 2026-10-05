@@ -11,6 +11,16 @@ commit is listed separately.
 
 ### Added
 
+- Instances can enable reviewer-facing submission notes in General Configuration.
+  Review Admin provides a searchable submission list, type filters, and a shared
+  rich-text note editor with the last editing admin and update time. Assigned
+  reviewers see notes above review questions, including in PDF review mode;
+  disabling the feature preserves saved notes. Database setup is supplied as
+  manual SQL, without a Prisma migration.
+- The reviewer import page includes an Add Single Reviewer form with active
+  expertise choices, a preview of account matches and exact field changes, and
+  confirmation before importing. The form shares the CSV import's identity
+  checks and preservation rules and offers Add Another or Done after success.
 - Administrators can import MemberClicks reviewers from CSV through Configuration
   → Review Admin, with a downloadable template, validation preview, and optional
   reviewer expertise. Imports preserve existing roles, populated profile fields,
@@ -18,6 +28,10 @@ commit is listed separately.
 
 ### Fixed
 
+- Submission Notes now shows only submitted submissions and removes the title
+  column from its list while preserving title search.
+- Submission Notes now limits its type dropdown, submission list, and counts
+  to active submission types in the current instance.
 - The reviewer import page's available submission types list now shows only
   active types and reports when no active types are available.
 - Admin report tables and CSV exports follow each submission form's page and
