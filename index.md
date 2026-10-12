@@ -11,6 +11,12 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-10-12
+
+### Fixed
+
+- Reduced Railway log volume by removing per-request instance-resolution diagnostics and avoiding internal error details in `/instance` responses; concise logging remains for actual resolution failures.
+
 ## 2026-10-05
 
 ### Added
@@ -32,6 +38,8 @@ commit is listed separately.
 
 ### Fixed
 
+- Submission Notes now shows only submitted submissions and removes the title
+  column from its list while preserving title search.
 - Submission Notes now limits its type dropdown, submission list, and counts
   to active submission types in the current instance.
 - The reviewer import page's available submission types list now shows only
