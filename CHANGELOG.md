@@ -7,6 +7,18 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-10-15
+
+### Changed
+
+- Send submission confirmations, payment receipts, conflict notifications, and
+  admin test/audience emails directly through Amazon SES using the existing
+  AWS user's credentials. Preserve instance-specific senders, CC/BCC, templates,
+  and audience batching while removing the AWS-API mail relay dependency.
+- Include a plain-text email alternative and require an SES message ID before
+  reporting acceptance. Disable SDK retries and report uncertain outcomes after
+  timeouts or network/server failures to avoid duplicate sends.
+
 ## 2026-10-12
 
 ### Fixed
