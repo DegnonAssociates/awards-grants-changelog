@@ -11,6 +11,17 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-10-16
+
+### Added
+
+- Administrators can duplicate a submission type from Add/Edit Submission Types.
+  Copies include settings, fees, dates, applicant fields, pages and repeatable-page
+  limits, submission questions, and review questions. Active child types are
+  included, conditional question references point to the copied questions, and
+  copy names are numbered automatically. Existing submissions, reviewer
+  assignments, and invitations are excluded. No database migration is required.
+
 ## 2026-10-15
 
 ### Changed
