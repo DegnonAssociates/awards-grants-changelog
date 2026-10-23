@@ -7,6 +7,22 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-10-23
+
+### Added
+
+- Administrators can draft, preview, and publish applicant guidance with rich-text
+  guidelines, instructions, eligibility requirements, and optional PDFs up to
+  20 MiB. Instance defaults support per-submission-type overrides and document
+  inheritance, replacement, or removal, with editor and publication history.
+- Publish independent reviewer guidance from Review Admin. Published applicant
+  guidance appears before and during submissions; reviewer guidance appears on
+  Assigned Reviews and Review Guidelines. Existing document links remain available
+  until replaced, and submission-type duplication includes guidance configuration.
+- Add the three guidance tables through `docs/database/guidance.sql`, which must
+  be applied before deploying this feature. Existing submissions and legacy
+  document records are preserved.
+
 ## 2026-10-16
 
 ### Added
