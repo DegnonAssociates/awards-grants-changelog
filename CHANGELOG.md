@@ -7,6 +7,14 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-10-29
+
+### Fixed
+
+- Generate reviewer packet text with fully embedded Noto Sans fonts so accented,
+  typographic, Greek, and Cyrillic characters render reliably without font-subset
+  corruption.
+
 ## 2026-10-23
 
 ### Added
