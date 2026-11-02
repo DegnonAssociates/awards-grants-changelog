@@ -11,6 +11,19 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-11-02
+
+### Added
+
+- Record each account's last successful MemberClicks or Neon sign-in and show it
+  in Reviewer Completion using the instance's configured timezone. Accounts
+  without a tracked sign-in display "No login recorded"; earlier login history
+  is not backfilled and existing sessions update only after signing in again.
+- Provide the nullable `award_authors.last_login_at` column through
+  `prisma/manual-sql/2026-11-02-author-last-login.sql`, to be applied before
+  deployment. Login tracking failures are logged without blocking sign-in, and
+  profile refreshes preserve the recorded timestamp.
+
 ## 2026-10-31
 
 ### Added
