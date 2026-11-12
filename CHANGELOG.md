@@ -7,6 +7,16 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-11-12
+
+### Fixed
+
+- Save explicit No responses to the reviewer conflict-of-interest question and
+  restore either saved selection when reopening a review, including reviews
+  without other configured questions.
+- Preserve the previous conflict answer when review validation fails, and keep
+  conflict notifications working when a reviewer changes No to Yes.
+
 ## 2026-11-11
 
 ### Added
