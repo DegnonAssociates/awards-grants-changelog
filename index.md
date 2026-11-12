@@ -13,6 +13,15 @@ commit is listed separately.
 
 ## 2026-11-12
 
+### Added
+
+- Use the current instance name as the browser title and support an optional
+  HTTP(S) `favicon_url` for the browser icon, with the existing default title
+  and favicon as fallbacks.
+- Add the nullable `award_instances.favicon_url` column through
+  `prisma/manual-sql/2026-11-12-instance-favicon-url.sql`. Apply this SQL before
+  deploying; the database change has not been applied from this checkout.
+
 ### Fixed
 
 - Save explicit No responses to the reviewer conflict-of-interest question and
