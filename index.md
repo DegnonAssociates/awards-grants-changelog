@@ -11,6 +11,15 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-11-17
+
+### Fixed
+
+- Include the latest rich-text edits when saving review responses, including
+  edits merged into the editor's undo history.
+- Clarify that saving a completed review updates its dashboard status. When a
+  save fails, link reviewers to any answers that need attention.
+
 ## 2026-11-12
 
 ### Added
