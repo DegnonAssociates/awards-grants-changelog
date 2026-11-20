@@ -13,6 +13,8 @@ commit is listed separately.
 
 - Invite eligible applicants to linked Round 2 submission types directly from
   Reports and see each invitation's status in the same row.
+- Let admins include reviewer-visible submission notes as a plain-text column
+  in Reports CSV exports for instances with submission notes enabled.
 
 ### Fixed
 
