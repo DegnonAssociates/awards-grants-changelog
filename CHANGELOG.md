@@ -7,6 +7,18 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-11-20
+
+### Added
+
+- Invite eligible applicants to linked Round 2 submission types directly from
+  Reports and see each invitation's status in the same row.
+
+### Fixed
+
+- Restore the current report, filters, sort order, visible columns, page, and
+  scroll position when returning from a submission detail page.
+
 ## 2026-11-17
 
 ### Fixed
