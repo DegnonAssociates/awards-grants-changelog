@@ -17,6 +17,9 @@ commit is listed separately.
 
 - Let admins target email templates by Round 2 invitation status for linked
   submission types. Review the selected group and email count before sending.
+- Let applicant email templates merge submission notes and the three YIA
+  initial-proposal review comment sections. Round 2 templates with feedback
+  fields show a sample message in the send preview.
 
 ## 2026-11-20
 
