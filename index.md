@@ -11,6 +11,13 @@ This log was reconstructed from the Git history through commit `841dbc3` on
 2026-08-12. Merge-only commits are omitted when the underlying feature or fix
 commit is listed separately.
 
+## 2026-11-24
+
+### Added
+
+- Let admins target email templates by Round 2 invitation status for linked
+  submission types. Review the selected group and email count before sending.
+
 ## 2026-11-20
 
 ### Added
